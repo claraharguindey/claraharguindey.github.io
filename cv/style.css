@@ -268,7 +268,6 @@ a:hover {
     display: none;
   }
 }
-
 @media (max-width: 768px) {
   .navmenu {
     position: relative;
@@ -280,6 +279,41 @@ a:hover {
 
   .row {
     justify-content: flex-start;
+    gap: 4px;
+    margin-bottom: 4px;
+  }
+
+  .block {
+    height: 24px;
+    font-size: 0.75rem;
+  }
+
+  .cell-filled {
+    padding: 0 12px;
+  }
+
+  .cell-filled a {
+    font-size: 0.75rem;
+  }
+
+  .row-1 .cell-outline:nth-child(2) {
+    width: 60px;
+  }
+
+  .row-1 .cell-outline:nth-child(4) {
+    width: 70px;
+  }
+
+  .row-2 .cell-outline:nth-child(1) {
+    width: 90px;
+  }
+
+  .row-2 .cell-outline:nth-child(3) {
+    width: 55px;
+  }
+
+  .row-3 .cell-outline:nth-child(2) {
+    width: 85px;
   }
 
   .duotone-container {
