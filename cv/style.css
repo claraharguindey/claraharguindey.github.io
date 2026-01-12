@@ -228,8 +228,6 @@ h2 {
   bottom: 20px;
   overflow: hidden;
   background-color: #0000ee;
-  border-radius: 4px;
-  box-shadow: 0 4px 12px rgba(0, 0, 238, 0.2);
 }
 
 .duotone-container img {
